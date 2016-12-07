@@ -5,6 +5,8 @@ import Home from './lib/Home'
 
 render((
   <Router history={ hashHistory }>
-    <Route path="/" component={ Home }/>
+    <Route path="/" component={ Nav }>
+      <Route path="/" component={ Home }/>
+    </Route>
   </Router>
 ), document.getElementsById('app'))
