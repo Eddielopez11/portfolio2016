@@ -1,0 +1,48 @@
+.pageDiv {
+  height: 100%; }
+
+.navigation {
+  background-color: #646464;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  width: 100%; }
+
+.aboutLink {
+  color: white;
+  font-size: 35px;
+  text-decoration: none; }
+
+.mainPageWrapper {
+  height: 100%; }
+
+.about {
+  display: inline-block;
+  background-image: url(../assets/pexels-photo-48606.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  margin-top: 70px;
+  width: 100%; }
+
+.work {
+  display: inline-block;
+  background-color: #ffffe6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  width: 100%; }
+
+html {
+  height: 100%; }
+
+body {
+  margin: 0;
+  height: 100%; }
+
+main {
+  height: 100%; }
