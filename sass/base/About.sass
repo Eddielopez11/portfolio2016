@@ -1,23 +1,33 @@
+
 .mainPageWrapper
   height: 100%
 
-.about
+/* parallax scrolling */
+.about, .work, .contact
   display: inline-block
-  background-image: url(../assets/pexels-photo-48606.jpeg)
   background-attachment: fixed
-  background-position: center
+  background-position: top
   background-repeat: no-repeat
   background-size: cover
-  height: 90%
-  margin-top: 70px
+  height: 100%
   width: 100%
 
-.work
-  display: inline-block
-  background-color: rgb(255, 255, 230)
-  background-attachment: fixed
-  background-position: center
-  background-repeat: no-repeat
-  background-size: cover
+.pageWrapper
   height: 90%
   width: 100%
+
+.about
+  background-image: url(../assets/pexels-photo-48606.jpeg)
+
+.work
+  background-color: rgb(245, 245, 245)
+
+.contact
+  background-image: url(../assets/pexels-photo.jpg)
+
+.linkSpacer-header
+  position: relative
+
+.linkSpacer-span
+  position: absolute
+  top: 200px
