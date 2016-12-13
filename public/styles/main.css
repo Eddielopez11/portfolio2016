@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis|Open+Sans");
 .pageDiv {
   height: 100%; }
 
@@ -10,7 +11,8 @@
   font-size: 45px; }
 
 .nav {
-  background-color: #465050;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid black;
   padding: 5px 100px 10px 100px;
   position: fixed;
   top: 0;
@@ -28,7 +30,7 @@
       padding: 10px 15px;
       vertical-align: middle; }
       .nav .nav--list .navList--item .navList--link {
-        color: white;
+        color: dimgray;
         font-size: 30px;
         font-weight: 100;
         text-decoration: none; }
@@ -37,9 +39,6 @@
   color: white;
   font-size: 35px;
   text-decoration: none; }
-
-.mainPageWrapper {
-  height: 100%; }
 
 /* parallax scrolling */
 .intro, .work, .about, .contact {
@@ -52,13 +51,24 @@
   height: 100%;
   width: 100%; }
 
-.pageWrapper {
+.contentWrapper {
   font-size: 0;
   height: 90%;
   width: 100%; }
 
 .intro {
-  background-image: url(../assets/pexels-photo-48606.jpeg); }
+  background-image: url(../assets/pexels-photo-82256.jpeg);
+  color: #f0f0f0;
+  text-align: center; }
+  .intro .intro--h1 {
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 13%; }
+  .intro .intro--h2 {
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Dosis', sans-serif; }
 
 .work {
   background-color: whitesmoke; }
@@ -88,4 +98,7 @@ body {
   height: 100%; }
 
 main {
+  height: 100%; }
+
+.mainPageWrapper {
   height: 100%; }
