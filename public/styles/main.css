@@ -71,7 +71,7 @@
     font-family: 'Dosis', sans-serif; }
 
 .work {
-  background-color: whitesmoke;
+  background-image: url(../assets/wood-pattern-ground-parquet-floor.jpg);
   height: auto;
   padding: 40px; }
 
@@ -79,7 +79,7 @@
   width: 500px; }
 
 .about {
-  background-image: url(../assets/wood-pattern-ground-parquet-floor.jpg); }
+  background-color: whitesmoke; }
 
 .contact {
   background-image: url(../assets/pexels-photo.jpg); }
