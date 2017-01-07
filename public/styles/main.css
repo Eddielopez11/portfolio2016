@@ -57,7 +57,7 @@
   width: 100%; }
 
 .intro {
-  background-image: url(../assets/pexels-photo-82256.jpeg);
+  background-image: url(../assets/pexels-photo-48606.jpeg);
   color: #f0f0f0;
   text-align: center; }
   .intro .intro--h1 {
@@ -71,10 +71,15 @@
     font-family: 'Dosis', sans-serif; }
 
 .work {
-  background-color: whitesmoke; }
+  background-image: url(../assets/wood-pattern-ground-parquet-floor.jpg);
+  height: auto;
+  padding: 40px; }
+
+.projectImage {
+  width: 500px; }
 
 .about {
-  background-image: url(../assets/wood-pattern-ground-parquet-floor.jpg); }
+  background-color: whitesmoke; }
 
 .contact {
   background-image: url(../assets/pexels-photo.jpg); }
