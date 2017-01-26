@@ -3,7 +3,7 @@
   height: 100%; }
 
 .header {
-  height: 55px; }
+  height: 40px; }
 
 .nav--Name {
   color: #fc424b;
@@ -29,18 +29,9 @@
       vertical-align: middle; }
       .nav .nav--list .navList--item .navList--link {
         color: dimgray;
-        font-size: 35px;
+        font-size: 20px;
         font-weight: 100;
         text-decoration: none; }
-
-@media (min-width: 1024px) {
-  .nav {
-    padding: 5px 100px 10px 100px; }
-    .nav .nav--list .navList--item {
-      padding: 10px 15px; }
-      .nav .nav--list .navList--item .navList--link {
-        font-size: 25px;
-        color: red; } }
 
 /* parallax scrolling */
 .intro, .work, .about, .contact {
@@ -62,9 +53,9 @@
   width: 100%; }
 
 .intro {
-  background-color: black;
+  background-color: #262626;
   color: #f0f0f0;
-  height: 60%;
+  height: 90%;
   text-align: center; }
   @media (min-width: 768px) {
     .intro {
@@ -75,6 +66,9 @@
     margin: 0;
     margin-top: 20%;
     text-shadow: 0 1px 3px black; }
+    @media (min-width: 768px) {
+      .intro .intro--h1 {
+        margin-top: 160px; } }
   .intro .intro--h2 {
     font-size: 30px;
     font-weight: 100;
@@ -129,7 +123,7 @@
 .contact__ul {
   color: #bfbfbf;
   list-style: none;
-  margin: 15% 5%; }
+  margin: 10% 0 0 5%; }
   .contact__ul .contact__li {
     margin-bottom: 10px; }
     .contact__ul .contact__li .contact__link {
