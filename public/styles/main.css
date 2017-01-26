@@ -45,13 +45,16 @@
 /* parallax scrolling */
 .intro, .work, .about, .contact {
   display: inline-block;
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   font-size: 16px;
   height: 100%;
   width: 100%; }
+  @media (min-width: 768px) {
+    .intro, .work, .about, .contact {
+      background-attachment: fixed;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover; } }
 
 .contentWrapper {
   font-size: 0;
@@ -59,10 +62,13 @@
   width: 100%; }
 
 .intro {
-  background-image: url(../assets/pexels-photo-129208.jpeg);
+  background-color: black;
   color: #f0f0f0;
   height: 60%;
   text-align: center; }
+  @media (min-width: 768px) {
+    .intro {
+      background-image: url(../assets/pexels-photo-129208.jpeg); } }
   .intro .intro--h1 {
     font-size: 40px;
     font-weight: 100;
@@ -86,8 +92,7 @@
 
 .projectsLink {
   color: #e1e1e1;
-  text-decoration: none;
-  margin-bottom: 20px; }
+  text-decoration: none; }
 
 .projectImage {
   width: 100%; }
