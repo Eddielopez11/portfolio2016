@@ -1,15 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis|Open+Sans");
-.pageDiv {
-  height: 100%; }
-
 .header {
   height: 40px; }
-
-.nav--Name {
-  color: #fc424b;
-  display: none;
-  font-weight: 100;
-  font-size: 45px; }
 
 .nav {
   background-color: #f0f0f0;
@@ -19,9 +10,9 @@
   width: 100%; }
   .nav .nav--list {
     display: inline-block;
-    list-style-type: none;
     margin: auto;
-    padding: 0; }
+    padding: 0;
+    width: 50%; }
     .nav .nav--list .navList--item {
       display: inline-block;
       list-style-type: none;
@@ -64,7 +55,7 @@
     font-size: 40px;
     font-weight: 100;
     margin: 0;
-    margin-top: 20%;
+    margin-top: 50%;
     text-shadow: 0 1px 3px black; }
     @media (min-width: 768px) {
       .intro .intro--h1 {
@@ -84,6 +75,28 @@
 .work__title {
   color: #f0f0f0; }
 
+@media (min-width: 768px) {
+  .workSections {
+    display: inline-block;
+    padding: 0 10px;
+    text-shadow: 0 1px 3px black;
+    vertical-align: text-top;
+    width: 33%; }
+    .workSections .projectsLink {
+      height: 250px;
+      width: auto; }
+      .workSections .projectsLink .projectImage {
+        height: 250px; }
+      .workSections .projectsLink .projectImgOverlay {
+        color: #e67e22;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0; }
+      .workSections .projectsLink .projectImgOverlay:hover {
+        display: inline-block; } }
+
 .projectsLink {
   color: #e1e1e1;
   text-decoration: none; }
@@ -96,6 +109,11 @@
   padding: 15px;
   height: auto;
   font-weight: lighter; }
+  @media (min-width: 768px) {
+    .about {
+      display: inline-block;
+      height: 420px;
+      width: 66.6%; } }
 
 .aboutMeTitle {
   color: #8c8c82; }
@@ -104,6 +122,10 @@
   color: #282828; }
 
 .aboutMeHeadshot {
+  background-image: url(../assets/TIY-avatar.jpg);
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -111,7 +133,13 @@
 
 .contact {
   background-color: #404040;
-  height: auto; }
+  height: 100%; }
+  @media (min-width: 768px) {
+    .contact {
+      display: inline-block;
+      height: 420px;
+      vertical-align: top;
+      width: 33.4%; } }
 
 .linkSpacer-header {
   position: relative; }
@@ -124,6 +152,9 @@
   color: #bfbfbf;
   list-style: none;
   margin: 5% 0 0 5%; }
+  @media (min-width: 768px) {
+    .contact__ul {
+      margin: 20% 0 0 5%; } }
   .contact__ul .contact__li {
     margin-bottom: 10px; }
     .contact__ul .contact__li .contact__link {
