@@ -79,7 +79,7 @@
   background-image: url(../assets/wood-pattern-ground-parquet-floor.jpg);
   color: white;
   height: auto;
-  padding: 15px; }
+  padding: 20px 30px; }
 
 .work__title {
   color: #f0f0f0; }
@@ -123,12 +123,19 @@
 .contact__ul {
   color: #bfbfbf;
   list-style: none;
-  margin: 10% 0 0 5%; }
+  margin: 5% 0 0 5%; }
   .contact__ul .contact__li {
     margin-bottom: 10px; }
     .contact__ul .contact__li .contact__link {
       color: white;
       margin-left: 10px;
+      text-decoration: none;
+      vertical-align: middle; }
+  .contact__ul .contact__fa {
+    display: inline-block;
+    margin: 10px 15px 15px 0; }
+    .contact__ul .contact__fa .contact__link {
+      color: white;
       text-decoration: none;
       vertical-align: middle; }
 
