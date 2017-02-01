@@ -55,7 +55,8 @@
   text-align: center; }
   @media (min-width: 768px) {
     .intro {
-      background-image: url(../assets/pexels-photo-129208.jpeg); } }
+      background-image: url(../assets/pexels-photo-129208.jpeg);
+      height: 550px; } }
   .intro .intro--h1 {
     font-size: 40px;
     font-weight: 100;
@@ -78,7 +79,8 @@
   padding: 20px 30px; }
 
 .work__title {
-  color: #f0f0f0; }
+  color: #f0f0f0;
+  text-align: center; }
 
 @media (min-width: 768px) {
   .workSections {
@@ -111,40 +113,53 @@
 
 .about {
   background-color: whitesmoke;
-  padding: 15px;
+  font-weight: lighter;
   height: auto;
-  font-weight: lighter; }
+  padding: 15px;
+  width: 100%; }
   @media (min-width: 768px) {
     .about {
-      display: inline-block;
-      height: 420px;
-      width: 66.6%; } }
+      height: 320px; } }
 
 .aboutMeTitle {
-  color: #8c8c82; }
+  color: #646464;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center; }
+
+@media (min-width: 768px) {
+  .aboutWrapper {
+    margin: auto;
+    width: 80%; } }
 
 .aboutMeP {
-  color: #282828; }
+  color: #282828;
+  font-size: 18px; }
+  @media (min-width: 768px) {
+    .aboutMeP {
+      display: inline-block;
+      vertical-align: top;
+      width: 70%; } }
 
 .aboutMeHeadshot {
   background-image: url(../assets/TIY-avatar.jpg);
   background-position: center;
   background-size: cover;
-  display: inline-block;
-  height: 150px;
-  width: 150px;
   border-radius: 50%;
-  margin: 15px auto; }
+  display: inline-block;
+  height: 180px;
+  margin: 15px auto;
+  width: 180px; }
+  @media (min-width: 768px) {
+    .aboutMeHeadshot {
+      margin-left: 7%; } }
 
 .contact {
   background-color: #404040;
   height: 70%; }
   @media (min-width: 768px) {
     .contact {
-      display: inline-block;
-      height: 420px;
-      vertical-align: top;
-      width: 33.4%; } }
+      height: 120px; } }
 
 .linkSpacer-header {
   position: relative; }
@@ -159,9 +174,16 @@
   margin: 5% 0 0 5%; }
   @media (min-width: 768px) {
     .contact__ul {
-      margin: 20% 0 0 5%; } }
+      margin: 0;
+      margin-top: 10px;
+      padding: 0;
+      text-align: center; } }
   .contact__ul .contact__li {
     margin-bottom: 10px; }
+    @media (min-width: 768px) {
+      .contact__ul .contact__li {
+        display: inline-block;
+        margin-right: 20px; } }
     .contact__ul .contact__li .contact__link {
       color: white;
       margin-left: 10px;
