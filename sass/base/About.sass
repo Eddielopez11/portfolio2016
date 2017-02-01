@@ -19,11 +19,12 @@ $tabTop: "(min-width: 768px)"
 
 .intro
   background-color: rgb(38, 38, 38)
-  @media #{$tabTop}
-    background-image: url(../assets/pexels-photo-129208.jpeg)
   color: rgb(240, 240, 240)
   height: 90%
   text-align: center
+  @media #{$tabTop}
+    background-image: url(../assets/pexels-photo-129208.jpeg)
+    height: 550px
 
   .intro--h1
     font-size: 40px
@@ -48,6 +49,7 @@ $tabTop: "(min-width: 768px)"
 
 .work__title
   color: rgb(240, 240, 240)
+  text-align: center
 
 @media #{$tabTop}
   .workSections
@@ -83,38 +85,49 @@ $tabTop: "(min-width: 768px)"
 
 .about
   background-color: rgb(245, 245, 245)
-  padding: 15px
-  height: auto
   font-weight: lighter
+  height: auto
+  padding: 15px
+  width: 100%
   @media #{$tabTop}
-    display: inline-block
-    height: 420px
-    width: 66.6%
+    height: 320px
 
 .aboutMeTitle
-  color: rgb(140, 140, 130)
+  color: rgb(100, 100, 100)
+  font-size: 24px
+  font-weight: lighter
+  text-align: center
+
+.aboutWrapper
+  @media #{$tabTop}
+      margin: auto
+      width: 80%
 
 .aboutMeP
   color: rgb(40, 40, 40)
+  font-size: 18px
+  @media #{$tabTop}
+    display: inline-block
+    vertical-align: top
+    width: 70%
 
 .aboutMeHeadshot
   background-image: url(../assets/TIY-avatar.jpg)
   background-position: center
   background-size: cover
-  display: inline-block
-  height: 150px
-  width: 150px
   border-radius: 50%
+  display: inline-block
+  height: 180px
   margin: 15px auto
+  width: 180px
+  @media #{$tabTop}
+    margin-left: 7%
 
 .contact
   background-color: rgb(64, 64, 64)
   height: 70%
   @media #{$tabTop}
-    display: inline-block
-    height: 420px
-    vertical-align: top
-    width: 33.4%
+    height: 120px
 
 // parallax scrolling wouldnt allow links to
 // line up so the following is to align them
@@ -133,9 +146,15 @@ $tabTop: "(min-width: 768px)"
   list-style: none
   margin: 5% 0 0 5%
   @media #{$tabTop}
-    margin: 20% 0 0 5%
+    margin: 0
+    margin-top: 10px
+    padding: 0
+    text-align: center
   .contact__li
     margin-bottom: 10px
+    @media #{$tabTop}
+      display: inline-block
+      margin-right: 20px
     .contact__link
       color: white
       margin-left: 10px
