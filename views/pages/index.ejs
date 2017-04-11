@@ -9,9 +9,27 @@
     <script src="https://fb.me/react-15.3.0.min.js"></script>
     <script src="https://fb.me/react-dom-15.3.0.min.js"></script>
     <script src="https://use.fontawesome.com/1bac19a6c0.js"></script>
-  </head>
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+    <!-- ReactFire -->
+    <script src="https://cdn.firebase.com/libs/reactfire/1.0.0/reactfire.min.js"></script>
+    <!-- <script src="https://use.fontawesome.com/287cbfd20e.js"></script> -->
+      </head>
   <body>
     <main id="app" class="main"></main>
+
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAWtMSeMGHqZnt4Eq68WuElpiBt4Xg0jvI",
+        authDomain: "eduardolopez2017-ce519.firebaseapp.com",
+        databaseURL: "https://eduardolopez2017-ce519.firebaseio.com",
+        projectId: "eduardolopez2017-ce519",
+        storageBucket: "eduardolopez2017-ce519.appspot.com",
+        messagingSenderId: "493209484613"
+      };
+      firebase.initializeApp(config);
+    </script>
     <script src="javascripts/bundle.js" charset="utf-8"></script>
   </body>
 </html>
